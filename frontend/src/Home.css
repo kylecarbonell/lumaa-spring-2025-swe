@@ -1,0 +1,141 @@
+.Outline{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Nav{
+    /* background-color: oldlace; */
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Main{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginForm{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Buttons{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.TodoContainer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.TodoCard{
+    height: 150px;
+    width: 100%;
+    display: flex;
+
+    box-sizing: border-box;
+    padding-left: 20px;
+ 
+    margin-bottom:10px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    /* background-color: gray; */
+}
+
+.TodoCard-Titles{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.TodoCard-Buttons{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 20px;
+}
+
+.MessageContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Popup-Container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Popup{
+    width: 75%;
+    height: 90%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.Popup-Body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button, button:focus{
+    color: black;
+    background-color: white;
+    outline: none;
+    border: 1px solid black;
+
+}
+
+input{
+    width: 50%;
+    margin-bottom: 1%;
+    outline:none;
+}
