@@ -23,3 +23,6 @@
 
 # NOTES:
 - Salary expectations : 20-25/hr
+- Video:
+https://github.com/user-attachments/assets/23bf7730-621f-47e1-9fdc-f17d8b076844
+
