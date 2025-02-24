@@ -1,8 +1,8 @@
-import React from "../$node_modules/@types/react/index.js";
-import ReactDOM from "../$node_modules/@types/react-dom/client.js";
-import { BrowserRouter, Routes, Route } from "../$node_modules/react-router/dist/development/index.js";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router";
 import App from "./App.js";
 import Home from "./Home.js";
+import ReactDOM from "react-dom/client";
 
 const root = document.getElementById("root")!;
 

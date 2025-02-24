@@ -1,6 +1,6 @@
-import { useEffect, useState } from '../$node_modules/@types/react/index.js'
+import { useEffect, useState } from 'react'
 import './Home.css'
-import { useNavigate } from '../$node_modules/react-router/dist/development/index.js'
+import { useNavigate } from 'react-router'
 import TodoCard from './TodoCard.js'
 
 type Todo = {
