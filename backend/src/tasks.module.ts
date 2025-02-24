@@ -1,4 +1,4 @@
-import { MiddlewareConsumer, Module, RequestMethod } from "../$node_modules/@nestjs/common/index.js";
+import { MiddlewareConsumer, Module, RequestMethod } from "@nestjs/common";
 import { TaskController } from "src/tasks.controller";
 import { UserController } from "src/users.controller";
 import {
