@@ -9,12 +9,12 @@ import {
   Delete,
   Param,
   Put,
-} from "../$node_modules/@nestjs/common/index.js";
-import { Response } from "../$node_modules/@types/express/index.js";
+} from "@nestjs/common";
+import { Response } from "express";
 import { tasks, users } from "schema/tasks";
 import { db } from "src/main";
 
-import { eq, sql } from "../$node_modules/drizzle-orm/index.js";
+import { eq, sql } from "drizzle-orm";
 import { Task } from "schema/types";
 
 @Controller("tasks")

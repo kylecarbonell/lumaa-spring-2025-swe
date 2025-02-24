@@ -1,5 +1,5 @@
-import { HttpStatus, Injectable, NestMiddleware } from "../$node_modules/@nestjs/common/index.js";
-import { Request, Response, NextFunction } from "../$node_modules/@types/express/index.js";
+import { HttpStatus, Injectable, NestMiddleware } from "@nestjs/common";
+import { Request, Response, NextFunction } from "express";
 import { zTask, zUser } from "schema/types";
 const jwt = require("jsonwebtoken");
 

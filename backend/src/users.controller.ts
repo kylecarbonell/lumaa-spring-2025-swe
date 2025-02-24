@@ -1,6 +1,6 @@
-import { Controller, Get, HttpStatus, Post, Req, Res } from "../$node_modules/@nestjs/common/index.js";
-import { eq, sql } from "../$node_modules/drizzle-orm/index.js";
-import { Response, Request } from "../$node_modules/@types/express/index.js";
+import { Controller, HttpStatus, Post, Req, Res } from "@nestjs/common";
+import { eq, sql } from "drizzle-orm";
+import { Response, Request } from "express";
 import { tasks, users } from "schema/tasks";
 import { db } from "src/main";
 import { generateToken } from "src/user.service";

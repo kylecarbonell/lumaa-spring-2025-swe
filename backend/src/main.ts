@@ -1,4 +1,4 @@
-import { NestFactory } from "../$node_modules/@nestjs/core/index.js";
+import { NestFactory } from "@nestjs/core";
 import { TaskModule } from "./tasks.module.js";
 import { startDb } from "../schema/db.js";
 require("dotenv").config();

@@ -1,4 +1,4 @@
-import { defineConfig } from "./$node_modules/drizzle-kit/index.mjs";
+import { defineConfig } from "drizzle-kit";
 require("dotenv").config();
 
 export default defineConfig({
